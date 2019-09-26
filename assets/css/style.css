@@ -6,8 +6,9 @@
     height: 960px;
 }
 
-h1 {
+#head {
     float: left;
+    border: 1px solid black;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 20px;
     margin-bottom: 20px;
@@ -15,12 +16,12 @@ h1 {
     background: #4aaaa5;
 }
 
-ul {
+#menu {
     float: right;
+    border: 1px solid black;
     font-size: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 20px;
-    margin-bottom: 20px;
+    margin-top: 78px;
     color: #4aaaa5;   
   }
 
@@ -65,15 +66,74 @@ aside {
     width: 200px;
 }
 
-#absolute {
-    position: absolute;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #FFF;
-    background: #4aaaa5;
+.ctext {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #4aaaa5;
 }
+
+#submit {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #FFF;
+  background: #4aaaa5;
+  font-size: 15px;
+}
+
+
+.box-set {
+    position: relative;
+    height: 500px;
+    background: #fff;
+  }
+  
+  .box {
+    /* Absolute Position */
+    position: absolute;
+  }
+  
+  .box-1 {
+    top: 0%;
+    left: 0%;
+  }
+  
+  .box-2 {
+    top: 0%;
+    left: 33%;
+  }
+  
+  .box-3 {
+    top: 33%;
+    left: 0%;
+  }
+  
+  .box-4 {
+    top: 33%;
+    left: 33%;
+  }
+
+  .box-5 {
+    top: 66%;
+    left: 0%;
+  }
+  
+  .box .text {
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 8px;
+    left: 0;
+    right: 0;
+    top: 55%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+  }
+
+  .link1 {
+    color: #fff;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 16px;
+  }
 
 .link1 {
     color: #fff;
