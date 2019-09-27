@@ -1,9 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 
+.boxtop {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+
+.boxmid {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0%;
+    background: #ccc;
+}
+*/
 
 .container {
+    position: relative;
     margin: 0 auto;
-    margin-top: 50px;
     width: 960px;
     height: 960px;
+    background: #fff;
+}
+
+body {
+    background: #ddd;
 }
 
 #head {
@@ -21,7 +46,7 @@
     border: 1px solid black;
     font-size: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-top: 78px;
+    margin-top: 70px;
     color: #4aaaa5;   
   }
 
@@ -95,26 +120,31 @@ aside {
   .box-1 {
     top: 0%;
     left: 0%;
+    margin: 20px;
   }
   
   .box-2 {
     top: 0%;
     left: 33%;
+    margin: 20px;
   }
   
   .box-3 {
     top: 33%;
     left: 0%;
+    margin: 20px;
   }
   
   .box-4 {
     top: 33%;
     left: 33%;
+    margin: 20px;
   }
 
   .box-5 {
     top: 66%;
     left: 0%;
+    margin: 20px 20px 40px 20px;
   }
   
   .box .text {
@@ -142,10 +172,14 @@ aside {
   }
 
 footer {
+    position: absolute;
+    top: 960px;
+    width: 100%;
     text-align: center;
     font-size: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     clear: both;
     color: #fff;
     background: #666;
