@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-
+/* Classes and IDs that apply to every page */
 .boxtop {
     position: relative;
     width: 100%;
@@ -37,7 +37,7 @@ body {
 
 #head {
     position: absolute;
-    left: 14%;
+    left: 187px;
     bottom: -19px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 20px;
@@ -47,7 +47,7 @@ body {
 
 #menu {
     position: absolute;
-    right: 15%;
+    right: 200px;
     bottom: 0px;
     font-size: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -92,6 +92,16 @@ h2 {
     background: #4aaaa5;
 }
 
+footer {
+  position: absolute;
+  width: 100%;
+  top: 912px;
+  height: 5px;
+  background: #4aaaa5;
+}
+
+/* These Classes and IDs apply to only the About page
+ except for full, which applies to About and Contact */
 #full {
     float: right;
     padding-left: 20px;
@@ -115,20 +125,25 @@ aside {
     width: 250px;
 }
 
+/* These classes and IDs apply to the Contact page */
 .ctext {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #4aaaa5;
 }
 
 #submit {
+  position: absolute;
+  top: 450px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   color: #FFF;
   background: #4aaaa5;
   font-size: 15px;
+  text-decoration: none;
 }
 
+/* These classes and IDs apply ti the Portfolio page */
 .box-set {
     position: relative;
     top: 120px;
@@ -188,17 +203,3 @@ aside {
     padding: 8px;
     font-size: 16px;
   }
-
-.link1 {
-    color: #fff;
-    background-color: #4aaaa5;
-    text-decoration: none;
-  }
-
-footer {
-  position: absolute;
-  width: 100%;
-  top: 912px;
-  height: 5px;
-  background: #4aaaa5;
-}
