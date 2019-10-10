@@ -185,6 +185,12 @@ aside {
     left: 0%;
     margin: 20px;
   }
+
+  .box-6 {
+    top: 80%;
+    left: 33%;
+    margin: 20px;
+  }
   
   .box .text {
     position: absolute;
